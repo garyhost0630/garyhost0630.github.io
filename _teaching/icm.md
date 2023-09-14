@@ -4,7 +4,7 @@ collection: teaching
 type: "Honorable Mention"
 permalink: /teaching/2015-spring-teaching-1
 venue: "USA"
-date: 2022-05-09
+date: 2022-05-01
 location: "City, Country"
 ---
 
