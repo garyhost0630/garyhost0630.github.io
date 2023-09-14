@@ -1,10 +1,10 @@
 ---
-title: "Teaching experience 2"
+title: "American Undergraduate Mathematical Contest in Modeling (MCM)"
 collection: teaching
-type: "Workshop"
+type: "Meritorious Winner"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
+venue: "hosted by [COMAP](https://www.comap.com/)"
+date: 2023-05-09
 location: "City, Country"
 ---
 
