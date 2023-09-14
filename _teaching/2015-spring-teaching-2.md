@@ -3,7 +3,7 @@ title: "American Undergraduate Mathematical Contest in Modeling (MCM)"
 collection: teaching
 type: "Meritorious Winner"
 permalink: /teaching/2015-spring-teaching-1
-venue: "US"
+venue: "USA"
 date: 2023-05-09
 location: "City, Country"
 ---
