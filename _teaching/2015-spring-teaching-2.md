@@ -8,7 +8,7 @@ date: 2023-05-09
 location: "City, Country"
 ---
 
-MCM is hosted by [American Consortium for Mathematics and Its Applications](https://www.comap.com/) We are committed to solving problem C
+MCM is hosted by American Consortium for Mathematics and Its Applications. We are committed to solving [Problem C: Predicting Wordle Results](../files/mcm.pdf).
 
 Heading 1
 ======
