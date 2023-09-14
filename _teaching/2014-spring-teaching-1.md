@@ -2,7 +2,7 @@
 title: "Chinese Undergraduate Mathematical Contest in Modeling (MCM)"
 collection: teaching
 type: "National Second Prize"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /teaching/2014
 venue: "China"
 date: 2022-10-01
 location: "City, Country"
