@@ -3,7 +3,7 @@ title: "American Undergraduate Interdisciplinary Contest In Modeling (ICM)"
 collection: teaching
 type: "Honorable Mention"
 permalink: /teaching/2015-spring-teaching-1
-venue: "US"
+venue: "USA"
 date: 2022-05-09
 location: "City, Country"
 ---
