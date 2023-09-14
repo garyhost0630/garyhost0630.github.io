@@ -4,10 +4,10 @@ main:
     url: /cv/
     
   - title: "Publications"
-    url: /publications/
+    url: /talks/
 
   - title: "Mathematical Modeling"
-    url: /mathematical modeling/    
+    url: /teaching/    
 
   - title: "Honor & Awards"
     url: /honor & awards/    
