@@ -1,7 +1,7 @@
 ---
 title: 'Chentang Ancient Town Tour'
 date: 2023-09-02
-permalink: /posts/2023/09/blog2/
+permalink: /posts/2023/09/chentang/
 tags:
   - tour
   - shanxi
