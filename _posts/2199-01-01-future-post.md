@@ -9,17 +9,17 @@ tags:
 
 An ancient town famous for its ceramic (in Shanxi province). 
 
-![](/chen1.gpj)
-![](/chen2.gpj)
-![](/chen3.gpj)
-![](/chen4.gpj)
-![](/chen5.gpj)
-![](/chen6.gpj)
-![](/chen7.gpj)
-![](/chen8.gpj)
-![](/chen9.gpj)
-![](/chen10.gpj)
-![](/chen11.gpj)
+![](/chen1.JPG)
+![](/chen2.JPG)
+![](/chen3.JPG)
+![](/chen4.JPG)
+![](/chen5.JPG)
+![](/chen6.JPG)
+![](/chen7.JPG)
+![](/chen8.JPG)
+![](/chen9.JPG)
+![](/chen10.JPG)
+![](/chen11.JPG)
 
 
 
