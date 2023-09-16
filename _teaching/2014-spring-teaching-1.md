@@ -1,5 +1,5 @@
 ---
-title: "Chinese Undergraduate Mathematical Contest in Modeling (MCM)"
+title: "Chinese Undergraduate Mathematical Contest in Modeling (CMCM)"
 collection: teaching
 type: "National Second Prize"
 permalink: /teaching/2014PRC
