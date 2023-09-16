@@ -7,7 +7,7 @@ tags:
   - shanxi
 ---
 
-An ancient town famous for ceramic (in Shanxi, China). 
+An ancient town famous for ceramic (Shanxi, China). 
 
 ![](/chen1.JPG)
 ![](/chen2.JPG)
