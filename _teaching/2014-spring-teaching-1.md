@@ -1,8 +1,8 @@
 ---
-title: "Chinese Undergraduate Mathematical Contest in Modeling (CMCM)"
+title: "Chinese Undergraduate Mathematical Contest in Modeling (MCM)"
 collection: teaching
 type: "National Second Prize"
-permalink: /teaching/cmcm
+permalink: /teaching/mcm
 venue: "China"
 date: 2022-10-01
 location: "City, Country"
