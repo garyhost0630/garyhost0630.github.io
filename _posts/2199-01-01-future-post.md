@@ -21,7 +21,7 @@ An ancient town famous for its ceramic (in Shanxi province).
 ![](/chen10.JPG)
 ![](/chen11.JPG)
 
-
+(taken with Nikon)
 
 
 
