@@ -8,20 +8,20 @@ date: 2022-10-01
 location: "City, Country"
 ---
 
-We are committed to solving [Problem C: Predicting Wordle Results](/mcm.pdf). For our full paper, you can click [here](/mcm_fullpaper.pdf).
+We are committed to solving [Problem C: Composition analysis and identification of ancient glass products](/problem_c.pdf). For our full paper, you can click [here](/cmcm_fullpaper.pdf).
 
 ## Abstract:
 
-Wordle is a highly popular crossword puzzle on the **New York Times**. Through the five-letter words, the times players need to guess correctly and the number of players in hard mode, we analyze and predict the data of Wordle.
+玻璃既是人类最早发明的人造材料之一，也曾是最昂贵的材料之一。玻璃极易受埋藏环境的影响而风化，在风化过程中，玻璃化学成分比例及特征发生变化，从而影响对其类别的正确判断。因此，对玻璃制品的成分进行分析与鉴别在考古工作中显得尤为重要。
 
-**For problem 1**, we preprocess the original data firstly, including correcting non-5-letter words, using **Cubic Spline Interpolation** and **Hermitian Interpolation** for abnormal value in reported results. Following the processed data, we apply the number of results in 2022 to the forecast model combining **ARIMA** and **GM(1,1)**, and find it present a descending trend. Then we predict that the number of reported results on March 1, 2023 will be between **[8067, 12406]**. Finally, we use **Ridge Regression** to explore the relationship between the percentage of people in hard mode and the attributes of word such as vowels, repeated letters, part of speech and word frequency. It shows that the regression coefficients corresponding to each attributes are less than 0.005, so we infer that hard mode percentage and word's attributes is **irrelevant**.
+**针对问题一**：我们首先通过**Logistic回归**对附件表单1中缺失的文物颜色数据进行填补，预测出4个缺失颜色均为浅蓝。然后根据玻璃的纹饰、类型和颜色属性通过**one-hot编码**重构数据，建立其与风化关系的**岭回归模型**。结果显示，纹饰B的回归系数最高，为0.251，该纹饰文物最易发生风化；铅钡与高钾玻璃的回归系数分别为0.191和-0.191，说明铅钡比高钾玻璃更易风化。其次，考虑到化学成分维度较多，我们通过**主成分分析**分别对高钾、铅钡玻璃的14种化学成分进行降维，利用**皮尔逊相关系数**作出降维后化学成分与玻璃风化间相关系数矩阵。结果显示，高钾玻璃风化后二氧化硅含量显著增加，铅钡玻璃风化后二氧化硅含量降低。最后，我们根据原数据分布特点，用**蒙特卡罗模拟**出呈正态分布的风化前后数据，将其用于训练**BP神经网络**，然后通过训练好的模型，预测风化玻璃文物风化前的化学成分含量。
 
-**For problem 2**, we use **One-hot**, **Bag of words**, **N-gram in NLP** respectively to encode words, applying which to **BP Neural Network** training to predict percentages of (1, 2, 3, 4, 5, 6, X). Then we find that the encoding method and word frequency will affect the accuracy of the model. The optimal number of iterations under the one-hot encoding method is 198, while under the N-gram is 545. Subsequently, for the given word EERIE, we predict that its percentages are **(0.84%, 5.50%, 10.63%, 18.35%, 28.48%, 26.13%, 10.05%)**. Finally, we test the accuracy of the model by calculating the average Euclidean Distance between the predicted and real value. The result shows that the average value of the Euclidean Distance of all words is , therefore the model is quite accurate.
+**针对问题二**：我们将玻璃数据分为定量数据和定性数据，分别建立它们与玻璃分类之间关系的决策树模型。结果显示，氧化铅含量低，或氧化钾含量高且氧化锶含量低的玻璃为高钾玻璃；氧化铅含量高，或氧化钾含量低且二氧化硅含量低于76%的玻璃为铅钡玻璃。然后，我们分别对高钾和铅钡玻璃所有采样点依据14种化学成分进行**系统聚类分析**，并根据**肘部法则**确定出两种玻璃最优聚类数量均为4，再通过**Kmeans**进行亚分类分析，依据硅、铝、钾等五种元素将高钾玻璃分为高钾玻璃风化、待风化、中性、活泼金属类；依据硅、铝、磷等5种元素将铅钡玻璃分为铅钡玻璃风化、未风化、金属、非金属类。最后，我们改变聚类数量并计算各聚类中心的距离，结果显示我们的模型对聚类数量的改变具有较高的灵敏性。
 
-**For problem 3**, we perform **Systematic Clustering** on 359 words, and determine the optimal number of clusters is 3 through the Elbow Rule, and then use K = 3 for **Kmeans** to classify words into easy, middle and hard types. Using XGBoost, Random Forest, and Adaboost as base classifiers, we establish an Ensemble Learning model of **Plurality Voting**, and the clustering labels are used to train the model. We analyze the attributes of different types and find that hard words have repeated letters, middle words start with vowels and easy words are prefixed with aspirated ch, th, etc. We use the model to determine the difficulty of EERIE and it shows that EERIE is of high difficulty. Finally, we make the sensitivity analysis on the ensemble learning model, and its classification accuracy is stable at around 85%, so the accuracy of the model is high.
+**针对问题三**：我们首先对未知类别的8种文物进行数据侧写，分析其化学成分含量。然后以**XGBoost**、**随机森林**、**Adaboost**为基分类器，建立**MajorityVoting集成学习算法**，对A1到A8玻璃文物类别进行分类。结果显示A1、A6、A7为高钾玻璃，A2、A3、A4、A5、A8为铅钡玻璃。随后我们对集成分类器进行灵敏度分析，发现树种类采样比例较低时，A5小概率被分为高钾玻璃，其余情况下分类精度较高，说明集成分类器分类效果好，灵敏度较高。
 
-**For problem 4**, We perform descriptive statistics on dataset and find that the number of players rose urgently in short term, and after March 2022, the number of players gradually decreased, while the percentage of hard mode increased by degree. At the same time, times of guesses obey the normal distribution, that is, most players need 3 to 5 tries to guess the word correctly.
+**针对问题四**：我们通过**斯皮尔曼相关系数**分别对高钾、铅钡玻璃化学成分之间的关系进行分析，并通过python将相关系数矩阵可视化为**热力图**。通过分析热力图不同区域颜色深浅以及颜色种类，结果显示，对于高钾玻璃，酸性氧化物（二氧化硅）和碱性氧化物（氧化钾等）含量增减呈反比关系；对于铅钡玻璃，氧化钙和氧化铅之间呈负相关关系，氧化镁和氧化铝之间呈正相关关系。最后，通过对比两种玻璃热力图的色系分布和颜色深浅，结果显示高钾玻璃化学成分之间的相关性相对铅钡玻璃更强。
 
-**Keywords: Arima, Ridge Regression, NLP, BP Neural Network, Plurality Voting**
+**关键词：岭回归 神经网络 决策树 聚类分析 MajorityVoting集成学习**
 
-![](/mcm.jpg)
+![](/cmcm.jpg)
