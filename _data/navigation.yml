@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Publications"
-    url: /pub/
+    url: /talks/
 
   - title: "Contests"
     url: /teaching/    
