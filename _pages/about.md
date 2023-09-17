@@ -19,13 +19,21 @@ Hello! I am a fourth-year undergraduate student from [College of Physics and Opt
 
 ![](/paperpic.png)
 
-## Non-Line-of-Sight (NLOS) Imaging System and Algorithm
+## Fourier ptychographic microscopy based on reflective objective
 
-*Independent Research, Supervised by Prof. Chuanchuan Yang, Institute of Advanced Optical Communication Systems and Networks, Peking University*        (2021/1-2021/8)
+*Independent Research, Supervised by Prof. An Pan, Xi'an Institute of Optics and Precision Mechanics of CAS          (07/2023-present)
 
-- Mastered the theory of phasor-field virtual wave optics and Rayleigh-Sommerfeld Diffraction (RSD);
-- Proposed a criterion to explain the selection of virtual illumination function and corresponding wavelength in phasor-field method;
-- Developed a fusing algorithm to improve the phasor-field method which can improve the reconstruction SNR by around 20%.
+- Achieved mastery in the principles of phase retrieval algorithm and synthetic aperture imaging;
+- Surveyed and finished a review on the advancements in Fourier ptychographic microscopy over the past decade.
+
+## Research on the optical properties of fluorescent proteins based on AI
+
+*Independent Research, Supervised by Prof. Xiao Peng, Shenzhen University                                            (10/2022-06/2023)
+
+- Mastered the theory of protein structure prediction and fluorescent proteins;
+- Developed a fluorescent protein database including the structures predicted by Alphafold2 on Google Colab, excitation wavelength, emission wavelength, stokes shift, etc;
+- Established a project supported by the Innovation and Development Fund of Shenzhen University.
+
 
 
 
