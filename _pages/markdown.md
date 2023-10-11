@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 ## 2023
-* National Scholarship (The **highest honor-level** national scholarships currently available to higher education students in China.)
+* National Scholarship (The **highest honor-level** national scholarships currently available to undergraduate students in China.)
 * Hanben Niu Academician Scholarship (awarded to **top 8** undergraduate students in each academic year)
 
 ## 2022
