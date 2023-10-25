@@ -23,16 +23,16 @@ Hello! I am a fourth-year undergraduate student from [College of Physics and Opt
 
 *Independent Research, Supervised by Prof. An Pan, Xi'an Institute of Optics and Precision Mechanics of CAS          (07/2023-present)
 
-- Achieved mastery in the principles of phase retrieval algorithm and synthetic aperture imaging;
+- Achieved mastery in the principles of phase retrieval algorithm, transport of intensity equation, Kramers-Kronig relations and synthetic aperture imaging;
 - Surveyed and finished a review on the advancements in Fourier ptychographic microscopy over the past decade.
 
 ## Research on the optical properties of fluorescent proteins based on AI
 
 *Independent Research, Supervised by Prof. Xiao Peng, Shenzhen University                                            (10/2022-06/2023)
 
-- Mastered the theory of protein structure prediction and fluorescent proteins;
-- Developed a fluorescent protein database including the structures predicted by Alphafold2 on Google Colab, excitation wavelength, emission wavelength, stokes shift, etc;
-- Established a project supported by the Innovation and Development Fund of Shenzhen University.
+- Acquired expertise in protein structure prediction and later built a model on Pytorch by combining Raman spectroscopy and a Transformer encoder utilized in Alphafold2 to distinguish the Raman spectra of 5 distinct bacterial species;
+- Developed a fluorescent protein database including the structures predicted by Alphafold2 on Google Colab, excitation wavelength, emission wavelength, stokes shift, quantum yield, etc;
+- Initiated and led a project supported by the Innovation and Development Fund of Shenzhen University, which was subsequently recognized as an excellent project, ranking within the top 15%.
 
 
 
