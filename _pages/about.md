@@ -7,7 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I am a fourth-year undergraduate student from [College of Physics and Optoelectronic Engineering](https://cpoe.szu.edu.cn/en/), [Shenzhen University](https://en.szu.edu.cn/). Now I am working on Fourier ptychographic microscopy (FPM) with Prof. [An Pan](http://www.piclaboratory.com/), Xi'an institute of Optics and Precision Mechanics of CAS. My research interest lies in computational imaging, biophotonics and deep learning. I previously worked on fluorescence imaging with Prof. [Xiao Peng](https://bpg.szu.edu.cn/index.htm), Shenzhen University. 
+Hello! I am a fourth-year undergraduate student from [College of Physics and Optoelectronic Engineering](https://cpoe.szu.edu.cn/en/), [Shenzhen University](https://en.szu.edu.cn/). Now I am working on Fourier ptychographic microscopy (FPM) with Prof. [An Pan](http://www.piclaboratory.com/), Xi'an institute of Optics and Precision Mechanics of CAS. My research interest lies in computational imaging, biophotonics and deep learning. I previously worked on fluorescence imaging with Prof. [Xiao Peng](https://bpg.szu.edu.cn/index.htm), Shenzhen University. <a href="https://clustrmaps.com/site/1bx47" title="Visit tracker">
+  <img src="//www.clustrmaps.com/map_v2.png?d=C1jumbnuIQMAZInW8k4i16XRtxcj6GW6WDxAtnm_AVs&cl=ffffff" width="1" height="1" style="width: 1px; height: 1px;">
+</a>
 
 # Projects
 
