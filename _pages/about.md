@@ -29,6 +29,8 @@ Hello! I am a fourth-year undergraduate student from [College of Physics and Opt
 - Calculated the optical transfer function of the system and achieved theoretical resolution in simulations;
 - Achieved mastery in various experimental implementations of Fourier ptychographic microscopy in high speed, three dimensionality, full-color acquisition and integration of deep learning.
 
+![](/123.png)
+
 ## Research on the optical properties of fluorescent proteins based on AI
 
 *Independent Research, Supervised by Prof. Xiao Peng, Shenzhen University                                            (10/2022-06/2023)
