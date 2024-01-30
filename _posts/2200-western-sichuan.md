@@ -10,6 +10,21 @@ tags:
 
 An extraordinary journey in pursuit of a meteor shower. 
 
-![](/hk_start.jpg)
+**Chengdu**
+![](/images/1.jpg)
+![](/images/2.jpg)
+![](/images/3.jpg)
+![](/images/4.jpg)
+![](/images/5.jpg)
+
+**Western Sichuan**
+![](/images/11.jpg)
+![](/images/13.jpg)
+![](/images/14.jpg)
+![](/images/15.jpg)
+![](/images/16.jpg)
+![](/images/17.jpg)
+![](/images/18.jpg)
+![](/images/19.jpg)
 
 (taken with Lumix)
