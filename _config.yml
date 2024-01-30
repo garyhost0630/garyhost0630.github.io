@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Zipei Wu"
-  avatar           : "abc.jpg"
+  avatar           : "m.jpg"
   bio              : "4th-year undergrad @ SZU"
   location         : "Shenzhen, China"
   #employer         :
@@ -102,14 +102,14 @@ author:
   #instagram        : "greyouthwu_pp"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/zipei-wu-694b66262/"
   #orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   #stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  #twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/WuZipei85521"
   vine             :
   weibo            :
   xing             :
