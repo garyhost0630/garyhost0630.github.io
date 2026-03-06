@@ -21,30 +21,35 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3"
+          ruby-version: '3.1'
           bundler-cache: true
 
-      - name: Install system dependencies
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Install system packages
         run: |
           sudo apt-get update
-          sudo apt-get install -y imagemagick python3-pip
-          pip3 install jupyter nbconvert
-
-      - name: Install gems
-        run: bundle install
+          sudo apt-get install -y imagemagick
+          pip install jupyter nbconvert
 
       - name: Build site
         run: bundle exec jekyll build
 
-      - name: Upload site
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: _site
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
 
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - name: Deploy
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
