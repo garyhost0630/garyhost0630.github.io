@@ -24,10 +24,13 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true
 
-      - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick python3-pip
+          pip3 install jupyter nbconvert
 
-      - name: Install dependencies
+      - name: Install gems
         run: bundle install
 
       - name: Build site
