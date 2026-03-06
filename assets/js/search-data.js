@@ -440,16 +440,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/al-folio/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-fourier-ptychographic-microscopy-10-years-on-a-review-was-published-on-cells",
+          title: 'Fourier ptychographic microscopy 10 years on: a review was published on Cells.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-fusion-protein-localization-predicted-by-alphafold2-was-accepted-by-pibm",
+          title: 'Fusion protein localization predicted by AlphaFold2  was accepted by PIBM.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/al-folio/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-wide-field-quantitative-phase-imaging-without-slicing-via-feature-domain-fourier-ptychographic-microscopy-was-accepted-by-optics-amp-amp-laser-technology",
+          title: 'Wide-field quantitative phase imaging without slicing via feature-domain Fourier ptychographic microscopy was accepted...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
