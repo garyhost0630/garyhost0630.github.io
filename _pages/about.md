@@ -29,3 +29,8 @@ I am broadly interested in optical imaging, particularly multiphoton imaging tec
 
 Feel free to reach out if you are interested in my work or would like to collaborate.
 Let’s do great work and have fun along the way! 
+<a href="https://zipei.goatcounter.com"
+   target="_blank"
+   style="font-size:7px;opacity:0.35;text-decoration:none;margin-left:4px;">
+   •
+</a>
